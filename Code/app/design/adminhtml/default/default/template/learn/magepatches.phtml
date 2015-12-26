@@ -1,0 +1,5 @@
+<script>
+document.observe('dom:loaded',function(){
+    $$('.footer')[0].insert("<p> <span><b><?php echo $this->__('Installed Patch File(s)');?> : </b></span> <span style='color:teal;'><?php echo Mage::helper('magepatches')->getPatchefiles();?></span> </p>");
+});
+</script>

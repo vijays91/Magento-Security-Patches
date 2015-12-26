@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<layout>
+	<default>
+		<reference name="before_body_end">
+			<block type="core/template" name="learn.magepatches">
+                <action method="setTemplate">
+                    <value>learn/magepatches.phtml</value>
+                </action>
+            </block>
+		</reference>
+	</default>
+</layout>

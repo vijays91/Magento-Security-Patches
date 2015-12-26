@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Learn_Magepatches>
+             <version>1.0.0</version>
+        </Learn_Magepatches>
+    </modules>
+
+    <global>
+        <helpers>
+            <magepatches>
+                <class>Learn_Magepatches_Helper</class>
+            </magepatches>
+        </helpers>
+    </global>
+    
+    <adminhtml>
+        <layout>
+            <updates>
+                <magepatches>
+                    <file>learn/magepatches.xml</file>
+                </magepatches>
+            </updates>
+        </layout>
+    </adminhtml>
+</config>
